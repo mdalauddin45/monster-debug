@@ -5,9 +5,9 @@ function addHistory(questionText, timeTaken, errorCount) {
   newRow.classList.add("card");
 
   newRow.innerHTML = `
-  <h3>${questionText}</h3>
+  <h3>${questionText}</h3></br>
   <div>
-  <p>You took: <span class="bold">${timeTaken}</span> seconds</p>
+  <p>You took: <span class="bold">${timeTaken}</span> seconds</p></br>
   <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
   </div>
   `;
